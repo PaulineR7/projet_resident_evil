@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(Roboto-Regular.ttf);
+}
+body {
+    font-family: 'roboto';
+}
+
+header {
+    padding: 20px;
+}
+
+li {margin: 10px;}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.titre {
+    background-image:url(banner.jpg);
+    background-size: cover;
+    padding: 150px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.titre>img {
+    height: 20%;
+    width: 50%;
+}
+
+.article>h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.article>p {
+    text-align: center;
+    margin: 30px;
+}
+
+.article>a {
+    border: 1px solid red;
+    background-color: red;
+    text-decoration: none;
+    color:white;
+    display: block;
+    width: 80px;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    
+}
+
+.flex {
+    border: 1px solid black;
+    height: 400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    margin: 20px;
+}
+
+.nm>.img-nm {
+    background-image:url(new-monsters.jpg) ;
+    background-size: cover;
+    height:40%;
+}
+
+.maj>.img-maj {
+    background-image: url(new-graphism.jpg);
+    background-size: cover;
+    height: 40%;
+}
+
+.ga>.img-ga {
+    background-image: url(new-gameplay.jpeg);
+    background-size: cover;
+    height: 40%;
+}
+
+.flex>h3 {
+    padding: 30px 10px;
+}
+
+.flex>p {
+    padding: 0 10px;
+}
+
+.form {
+    text-align: center;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    padding: 20px;
+}
+
+.fin {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer>img {
+    height:10%;
+    width: 5%;
+    margin-right: auto;
+}
+
+#btn {
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    padding: 6px;
+    border-style: none;
+}
+
+#email {
+    border-radius: 6px;
+    color:rgb(41, 39, 39);
+    padding: 6px;
+}
